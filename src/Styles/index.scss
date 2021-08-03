@@ -1,0 +1,48 @@
+@import './header';
+@import "search";
+@import "photolist";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+
+
+}
+body {
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column wrap;
+  max-width: 1500px;
+  margin: 10px auto;
+  border: 1px solid white;
+
+}
+.page-length {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  div {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid gray;
+  }
+  div:hover {
+    background: gray;
+    color: white;
+  }
+
+}
